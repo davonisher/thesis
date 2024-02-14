@@ -9,8 +9,8 @@ This project aims to create a robust dataset concerning various AI tools, with a
 
 The most important file in this repository is analysis.ipynb. This is the final analysis, which conclusions are drawn from for my thesis.
 
-📁 code
-📁 data
+- 📁 code
+- 📁 data
 📁 processed_data # Cleaned and preprocessed data ready for analysis
 📁 raw_data # Original datasets from primary sources
 📁 datacleaning
