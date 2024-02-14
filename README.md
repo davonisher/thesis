@@ -7,8 +7,10 @@ This project aims to create a robust dataset concerning various AI tools, with a
 
 ## Project Structure
 
-- 📁 code
-- 📁 data
+The most important file in this repository is analysis.ipynb. This is the final analysis, which conclusions are drawn from for my thesis.
+
+📁 code
+📁 data
 📁 processed_data # Cleaned and preprocessed data ready for analysis
 📁 raw_data # Original datasets from primary sources
 📁 datacleaning
@@ -23,7 +25,7 @@ This project aims to create a robust dataset concerning various AI tools, with a
 📁 db
 📄 config.py # Configuration settings for the project
 📄 creating_database.py # Script for initializing the database
-📄 importing_data.py # Script to import data into the database
+📄 importing_datas_from_csv copy.py # Script to import data into the database
 📁 local_llm
 📄 .env # Environment variables for local settings
 📄 ollama_classifier.py # Python script for the Ollama classifier
@@ -40,6 +42,27 @@ This project aims to create a robust dataset concerning various AI tools, with a
 
 Before diving into the project, ensure you have Python 3.x installed along with Jupyter Notebooks. This project relies on libraries like pandas, numpy, matplotlib, seaborn, scikit-learn, and others that are essential for data science tasks.
 
+To use the classifier for local_llm you need to install ollama software first:
+
+For linux or WSL
+curl -fsSL https://ollama.com/install.sh | sh
+
+For mac
+download it directly from Ollama website: https://ollama.com/download
+
+Afterwards
+
+run the following code:
+
+ollama run *model*
+
+e.g. model = llama2
+
+For the classifier you should first create a model by:
+
+ollama create cs -f ./classifier
+
+
 To install these libraries, run:
 
 ```bash
@@ -52,31 +75,38 @@ Make sure to set up the .env file with necessary environment variables and updat
 Data Scraping
 To gather the most recent data, navigate to the datascraping/ directory and execute the scraping scripts:
 
-
 python datascraping/links_ph.py
-# ...
+python datascraping/reviews_scraper_ph.py
+python datascraping/toolscraper.py
+
 Data Cleaning
 The datacleaning/ directory contains notebooks that detail the cleaning process. Execute these notebooks to clean and preprocess your data.
 
-Data Analysis and Topic Modelling
-For data analysis and topic modelling, utilize the notebooks within the topic_modelling/ directory:
-
-lda.ipynb: For Latent Dirichlet Allocation topic modelling.
+Data Analysis 
+For data analysis 
 analysis.ipynb: For comprehensive data analysis.
 
+Topic Modelling
+utilize the notebooks within the topic_modelling/ directory:
+lda.ipynb: For Latent Dirichlet Allocation topic modelling.
+
 Database Management
-Run db/creating_database.py to initialize your database structure. After cleaning your data, use db/importing_data.py to import it into your database.
+Run db/creating_database.py to initialize your database structure. After cleaning your data, use db/importing_datas_from_csv.py to import it into your database.
 
 Local Large Language Models (LLM)
 Scripts such as ollama_classifier.py and ollama_product_description.py within the local_llm/ directory are used for classification and generating product descriptions.
 
+python local_llm/ollama_classifier.py
+
 Natural Language Processing (NLP)
 The nlp/ directory contains notebooks for building and testing NLP models. They are essential for analyzing text data and extracting insights.
 
-Contributions
+
+
+## Project Structure
 We welcome contributions to enhance the project's capabilities. Please adhere to the established coding standards, commit guidelines, and follow the pull request process detailed in the contributing section.
 
 Contact
-For queries or further assistance, feel free to reach out at [insert your email here].
+For queries or further assistance, feel free to reach out at david.kakanis@hotmail.com
 
 ![Alt text](../processflow.png)
