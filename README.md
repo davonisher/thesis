@@ -1,5 +1,3 @@
-
-Copy code
 # AI Tools Dataset Development and Analysis Project
 
 ## Overview
