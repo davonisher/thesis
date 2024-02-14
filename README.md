@@ -43,13 +43,16 @@ The most important file in this repository is analysis.ipynb. This is the final 
 Before diving into the project, ensure you have Python 3.x installed along with Jupyter Notebooks. This project relies on libraries like pandas, numpy, matplotlib, seaborn, scikit-learn, and others that are essential for data science tasks.
 
 **To use the classifier for local_llm you need to install ollama software first:**
-For linux or WSL
+_For linux or WSL_
+
 curl -fsSL https://ollama.com/install.sh | sh
 
-For mac
+_For mac_
+
 download it directly from Ollama website: https://ollama.com/download
 
-**Afterwards**
+**After previous step**
+
 run the following code:
 
 ollama run *model*
@@ -57,6 +60,7 @@ ollama run *model*
 e.g. model = llama2
 
 **For the classifier you should first create a model by:**
+
 ollama create cs -f ./classifier
 
 
