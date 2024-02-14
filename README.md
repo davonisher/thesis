@@ -7,8 +7,8 @@ This project aims to create a robust dataset concerning various AI tools, with a
 
 ## Project Structure
 
-📁 code
-📁 data
+- 📁 code
+- 📁 data
 📁 processed_data # Cleaned and preprocessed data ready for analysis
 📁 raw_data # Original datasets from primary sources
 📁 datacleaning
