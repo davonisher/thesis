@@ -11,32 +11,32 @@ The most important file in this repository is analysis.ipynb. This is the final 
 
 - 📁 code
 - 📁 data
-📁 processed_data # Cleaned and preprocessed data ready for analysis
-📁 raw_data # Original datasets from primary sources
-📁 datacleaning
-📘 explaining_data_cleaning.ipynb # Guide on the data cleaning process
-📁 datascraping
-📄 categories.py # Script to scrape categories of AI tools
-📄 links_ph.py # Script to scrape links from Product Hunt
-📄 rescape_blocked.py # Script to rescrape blocked resources
-📄 reviews_scraper_ph.py # Script to scrape reviews from Product Hunt
-📄 toolinfoscraper_ta.py # Script to scrape product page data from There's an AI for that
-📄 toolscraper_ta.py # Script to scrape homepage tool info from There's an AI for that
-📁 db
-📄 config.py # Configuration settings for the project
-📄 creating_database.py # Script for initializing the database
-📄 importing_datas_from_csv copy.py # Script to import data into the database
-📁 local_llm
-📄 .env # Environment variables for local settings
-📄 ollama_classifier.py # Python script for the Ollama classifier
-📄 ollama_product_description.py # Python script for generating product descriptions
-📁 nlp
-📘 nlp.ipynb # Notebook for NLP operations
-📘 testing_nlp.ipynb # Notebook for testing NLP models
-📁 topic_modelling
-📘 lda.ipynb # Notebook for LDA topic modelling
-📘 analysis.ipynb # Notebook for conducting data analysis
-📄 main.py # Main script for running various data operation tasks
+- 📁 processed_data # Cleaned and preprocessed data ready for analysis
+- 📁 raw_data # Original datasets from primary sources
+- 📁 datacleaning
+- 📘 explaining_data_cleaning.ipynb # Guide on the data cleaning process
+- 📁 datascraping
+- 📄 categories.py # Script to scrape categories of AI tools
+- 📄 links_ph.py # Script to scrape links from Product Hunt
+- 📄 rescape_blocked.py # Script to rescrape blocked resources
+- 📄 reviews_scraper_ph.py # Script to scrape reviews from Product Hunt
+- 📄 toolinfoscraper_ta.py # Script to scrape product page data from There's an AI for that
+- 📄 toolscraper_ta.py # Script to scrape homepage tool info from There's an AI for that
+- 📁 db
+- 📄 config.py # Configuration settings for the project
+- 📄 creating_database.py # Script for initializing the database
+- 📄 importing_datas_from_csv copy.py # Script to import data into the database
+- 📁 local_llm
+- 📄 .env # Environment variables for local settings
+- 📄 ollama_classifier.py # Python script for the Ollama classifier
+- 📄 ollama_product_description.py # Python script for generating product descriptions
+- 📁 nlp
+- 📘 nlp.ipynb # Notebook for NLP operations
+- 📘 testing_nlp.ipynb # Notebook for testing NLP models
+- 📁 topic_modelling
+- 📘 lda.ipynb # Notebook for LDA topic modelling
+- 📘 analysis.ipynb # Notebook for conducting data analysis
+- 📄 main.py # Main script for running various data operation tasks
 
 ## Installation and Configuration
 
