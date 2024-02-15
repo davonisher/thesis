@@ -99,7 +99,7 @@ python local_llm/ollama_classifier.py
 Natural Language Processing (NLP)
 The nlp/ directory contains notebooks for building and testing NLP models. They are essential for analyzing text data and extracting insights.
 
-'''
+```
 
 ## Project Structure
 We welcome contributions to enhance the project's capabilities. Please adhere to the established coding standards, commit guidelines, and follow the pull request process detailed in the contributing section.
