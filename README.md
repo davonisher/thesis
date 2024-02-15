@@ -1,7 +1,7 @@
 # AI Tools Dataset Development and Analysis Project
 
 ## Overview
-This project aims to create a robust dataset concerning various AI tools, with an emphasis on meticulous data collection, cleansing, and storage, culminating in insightful analysis. The dataset focuses on capturing the nuances of AI tools through various attributes gathered from multiple sources.
+This project aims to create a robust dataset concerning various AI tools, with an emphasis on meticulous data collection, cleansing, and storage, culminating in insightful analysis. The dataset focuses on capturing the nuances of AI tools through various attributes gathered from multiple sources. Data from Crunchbase, SimilarWeb, Product Hunt and There's an AI for that is combined to form an dataset on AI tools. Which analysis is done for.
 
 ## Project Structure
 
