@@ -107,4 +107,10 @@ We welcome contributions to enhance the project's capabilities. Please adhere to
 Contact
 For queries or further assistance, feel free to reach out at david.kakanis@hotmail.com
 
-![Alt text](../processflow.png)
+
+
+
+
+
+
+![image](https://github.com/davonisher/thesis/assets/104432882/f113c08e-7297-4ebf-8392-8a5a3b7d8c41)
